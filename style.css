@@ -76,4 +76,15 @@ body {
   footer p {
     margin: 0;
   }
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f1f1f1; /* cor de fundo opcional */
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
   
