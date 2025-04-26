@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lugares Turísticos na Europa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Explore a Europa!</h1>
+    <p>Descubra destinos incríveis para sua próxima aventura.</p>
+  </header>
+
+  <main class="cards-container">
+    <div class="card">
+      <img src="imagens/paris.jpg" alt="Paris">
+      <h3>Paris, França</h3>
+      <p>Visite a cidade luz e encante-se com a Torre Eiffel, museus e cafés charmosos.</p>
+    </div>
+
+    <div class="card">
+      <img src="imagens/roma.jpg" alt="Roma">
+      <h3>Roma, Itália</h3>
+      <p>Explore as ruínas do Coliseu, a história do Império Romano e a deliciosa gastronomia italiana.</p>
+    </div>
+
+    <div class="card">
+      <img src="imagens/barcelona.jpg" alt="Barcelona">
+      <h3>Barcelona, Espanha</h3>
+      <p>Admire a arquitetura de Gaudí, caminhe por Las Ramblas e relaxe nas praias incríveis.</p>
+    </div>
+
+    <div class="card">
+      <img src="imagens/amsterda.jpg" alt="Amsterdã">
+      <h3>Amsterdã, Holanda</h3>
+      <p>Ande de bicicleta pelos canais, visite museus e conheça a vibrante vida cultural da cidade.</p>
+    </div>
+  </main>
+
+  <a href="#" class="btn-topo">↑ Voltar ao Topo</a>
+
+  <script>
+  window.addEventListener('scroll', function() {
+    const botaoTopo = document.querySelector('.btn-topo');
+    if (window.scrollY > 200) {
+      botaoTopo.style.display = 'block';
+    } else {
+      botaoTopo.style.display = 'none';
+    }
+  });
+  </script>
+
+</body>
+<footer>
+    <p>&copy; 2025 Vicentina Martins. Todos os direitos reservados.</p>
+  </footer>
+</html>
